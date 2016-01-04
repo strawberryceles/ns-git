@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta content="tienda online, venta por catalogo, perfumes, carteras, billeteras, relojes"/>
+	<meta content="catalogo, productos, hombre, mujer, infantil, accesorios, style, moda"/>
+	<title>Registrarse |Nails and Style</title>
+    <link rel="shortcut icon" href="../img/favicon.ico"/>
+    <link rel="stylesheet" href="../css/registro.css" type="text/css"/>
+    <link rel="stylesheet" href="../font/webfont.css"/>
+	<link rel="stylesheet" href="../css/960_12_col.css"/>
+	<link rel="stylesheet" href="../css/reset.css"/>
+
+	<link rel="stylesheet" href="../css/calendario.css"/>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.8.3.js" type="text/jscript"></script>
+  <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js" type="text/jscript"></script>
+
+  <script type="text/jscript">
+    $(function() {
+        $( "#nacimiento" ).datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateFormat: "dd/mm/yy",
+        });
+    });
+  </script>
+</head>
+
+<body>
+	<div class="container_12" />
+	<div class="grid_3 contenedor">
+    	<div class="cabecera">
+        <a href="../index.html" title ="Nails and Style"><img src="../img/logo.png" width="120" height="120" alt="logo"/></a>
+		</div>
+
+		<div class="registro">
+			<p>Ingresar</p>
+			<fieldset>
+			Usuario
+			<input name="Usuario" type="text" />
+			Clave
+			<input name="Clave" type="password" maxlength="10" />
+			<input name="Entrar" type="button" value="Entrar" />
+			</fieldset>
+		</div>
+
+    	<div class="menu">
+      	<ul>
+      		<li><a href="registro.html">Registrarse</a></li>
+			<li><a href="perfumes.html">Perfumes</a></li>
+			<li><a href="carteras.html">Carteras</a></li>
+			<li><a href="billeteras.html">Billeteras</a></li>
+            <li><a href="relojes.html">Relojes</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+	  	</ul>
+		</div>
+    
+    	<div class="carro">
+ 		<a href="carrodecompra.html"><img src="../img/carro.png" width="23" height="20" alt="Mi carro"/>Carro de compras</a>
+		</div>
+    
+		<div class="busqueda">
+		<input name="buscador" type="text" value="Buscar" />	
+		</div>
+
+		<div class="redes">
+		<a href="http://www.fb.com/pages/Nails-and-Style/176746705801426" title ="Nuestro Facebook"><img src="../img/logo_fb.png" width="30" height="29" alt="Facebook"/></a>												
+		<a href="https://twitter.com/Nailsandstyle" title ="Nuestro Twitter"><img src="../img/logo_tw.png" width="30" height="29" alt="Twitter"/></a>
+    	</div>
+    </div>
+    
+    <div class="grid_9 banner">
+    	<p>Reg&iacute;strate</p>
+    </div>
+
+    <div class="grid_9 contenidoreg">
+    	<img src="../img/bannerfixed.jpg" width="700" height="40" alt="fixed" />
+    	<form action="registro">
+    		<table>
+	    		<tr>
+	    			<td>
+	    				Nombre:
+	    			</td>
+	    			<td>
+	    				<input type="text" name="nombres" />
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Apellidos:
+	    			</td>
+	    			<td>
+	    				<input type="text" name="apellidos" />
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Fecha de Nacimiento: <br/>
+	    				(DD/MM/AAAA)
+	    			</td>
+	    			<td>
+	    				<input type="text" name="nacimiento" id="nacimiento"/>
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Sexo:
+	    			</td>
+	    			<td>
+	    				<input type="radio" id="sexoM" name="sexo" value="M" />Masculino 
+	    				<input type="radio" id="sexoF" name="sexo" value="F" />Femenino 
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Dirección:
+	    			</td>
+	    			<td>
+	    				<input type="text" name="direccion" />
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Comuna:
+	    			</td>
+	    			<td>
+	    				<input type="text" name="comuna" />
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Ciudad:
+	    			</td>
+	    			<td>
+	    				<input type="text" name="ciudad" />
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Pa&iacute;s:
+	    			</td>
+	    			<td>
+	    				<input type="text" name="pais" />
+	    			</td>
+	    		</tr>
+                <tr>
+	    			<td>
+	    				Tel&eacute;fono:
+	    			</td>
+	    			<td>
+	    				<input type="text" name="telefono" />
+	    			</td>
+	    		</tr>
+                <tr>
+	    			<td>
+	    				Nombre de Usuario:
+	    			</td>
+	    			<td>
+	    				<input type="text" name="usuario"/>
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Clave:
+	    			</td>
+	    			<td>
+	    				<input type="password" name="password" maxlength="10"/>
+	    			</td>
+	    		</tr>
+	    		<tr>
+	    			<td>
+	    				Confirmar Clave:
+	    			</td>
+	    			<td>
+	    				<input type="password" name="conf_password" maxlength="10"/>
+	    			</td>
+	    		</tr>
+	    	</table>
+	    	<input name="Enviar" type="button" value="Enviar" class="enviar"/>
+    	</form>
+    </div>
+
+	<div class="grid_9 bajada">
+        <ul>
+			<li><h3>Nails and Style</h3></li>
+			<li><a href="quienessomos.html">Quienes somos</a></li>
+			<li><a href="mapadesitio.html">Mapa de sitio</a></li>
+        </ul>
+        <ul>
+            <li><h3>Mi cuenta</h3></li>
+			<li><a href="#">Cambiar clave</a></li>
+			<li><a href="#">Recuperar clave</a></li>
+        </ul>
+        <ul>
+            <li><h3>Contacto</h3></li>
+			<li><a name="telefono">Cel. 6/228 15 86 - 02/561 11 28</a></li>
+            <li><a href="mailto:jasminec@tiendans.com">jasminec@tiendans.com</a></li>
+		</ul>
+	</div>
+</body>
+</html>

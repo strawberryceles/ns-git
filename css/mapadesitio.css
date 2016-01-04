@@ -1,0 +1,137 @@
+/* CSS Document */
+body{font-family: 'eurostileregular', Arial, sans-serif;}
+
+a{text-decoration:none;}
+
+li{list-style-type:none;}
+
+.contenedor{background-color:#000;}
+
+/*contenedor*/
+.cabecera{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:50px;
+	padding-right:50px;
+	}
+
+.registro{
+	color:#fff;
+	border-color:#fff;
+	border-bottom-style:solid;
+	border-top-style:solid;
+	border-width:1px;
+	padding-bottom:15px;
+	padding-top:15px;
+	padding-left:43px;
+	padding-right:43px;
+	}
+
+.registro p{text-align:center;}
+
+.menu {
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left:63px;
+	padding-right:63px;
+	border-bottom-style:solid;
+	border-color:#fff;
+	border-width:1px;
+	}
+
+.menu a{
+	transition:all 2s;
+	-webkit-transition:all 2s;
+	-moz-transition:all 2s;
+	-o-transition:all 2s;
+	color:#fff;
+	}
+
+.menu a:hover{color:#666;}
+	
+.carro{
+	transition:all 2s;
+	-webkit-transition:all 2s;
+	-moz-transition:all 2s;
+	-o-transition:all 2s;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top:25px;
+	padding-bottom:16px;
+	}
+
+.carro a{
+	color:#fff;
+	text-decoration:none;
+	}
+	
+.carro a:hover{color:#666;}
+	
+.carro img{padding:5px;}
+
+.busqueda{
+	padding-bottom:480px;
+	padding-left:36px;
+	padding-right:36px;
+	}
+
+.redes{
+	padding-left:56px;
+	padding-right:56px;
+	padding-bottom:30px;
+	padding-top:inherit;
+	}
+
+.redes img{padding:10px;}
+/*contenedor end*/
+
+.banner{padding-top:2px;}
+	
+.banner p{
+	font-family:Arial, sans-serif;
+	padding-top:90px;
+	padding-bottom:30px;
+	font-variant:small-caps;
+	font-size:22px;
+	}
+
+.contenido{
+	font-family:Arial, sans-serif;
+	font-family: Arial, sans-serif;
+	padding-bottom:10px;}
+
+.contenido a{
+	text-decoration:none;
+	color:#333;
+	font-size:12px;
+	}
+
+.contenido a:hover{color:#609;}
+
+.contenido ul{
+	float:left;
+	padding-left:40px;
+	}
+
+.contenido h3{
+	color:#333;
+	font-size:14px;
+	}
+
+.bajada{
+	margin-top:45px;
+	padding-top:30px;
+	border-top-style:solid;
+	border-color:#000;
+	border-width:5px;
+	}
+
+.bajada a{
+	text-decoration:none;
+	color:#333;
+	}
+
+.bajada ul{
+	float:left;
+	padding-left:60px
+	}
